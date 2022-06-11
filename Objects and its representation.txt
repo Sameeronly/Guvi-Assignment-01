@@ -1,0 +1,21 @@
+OBJECTS and ITS INTERNAL RESPRESENTATION in JAVASCRIPT.
+
+1.Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+2.They are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+3.objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs. 
+ 
+For Eg. If your object is a student, it will have properties like name, age, address, id, etc and Values like "ram" ,23 , "ABC" etc.
+
+4.Object properties are basically the same as ordinary JavaScript variables, except for the attachment to objects .
+5.The properties of an object define the characteristics of the object and the properties of an object are accessed with a simple dot-notation or set using a bracket notation .
+
+For Eg . objectName.proprtyName or objectName.['propertyName'].
+
+Eg :let’s create an object named myCar and give it properties named make, model, and year as follows:
+
+var myCar = new Object();
+myCar.make = 'Ford';
+myCar.model = 'Mustang';
+myCar.year = 1969;
+
+6.Unassigned properties of an object are undefined (and not null).
